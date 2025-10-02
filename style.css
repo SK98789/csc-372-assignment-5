@@ -1,0 +1,39 @@
+.player_selected{
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.computer_selected{
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.not_selected{
+    border: 2px solid rgba(0,0,0, 0);
+    border-radius: 8px;
+}
+
+.stats_disp p{
+    display: inline;
+}
+
+#player_throw{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+#computer_throw{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+#outcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#results_text p{
+    display:inline;
+}
