@@ -14,7 +14,7 @@ const player_choices = document.querySelectorAll("#player-throw img");
 const cpuImage = document.querySelector("#computer-throw img");
 let choice_selected = false;
 let playerChoice;
-const image_choices = ["rock.png", "paper.png", "scissors.png"];
+const image_choices = ["rock.PNG", "paper.PNG", "scissors.PNG"];
 let animation;
 const results = document.querySelector("#res-display");
 const button = document.querySelector("#play-button");
@@ -25,7 +25,7 @@ const statsButton = document.querySelector("#stats-button");
 
 /**resets values to original settings */
 button.addEventListener('click', () => {
-    cpuImage.src = "images/question-mark.png";
+    cpuImage.src = "images/question-mark.PNG";
     cpuImage.classList.replace("computer-selected", "not-selected");
     player_choices[playerChoice].classList.replace("player-selected", "not-selected");
     results.textContent = "";
